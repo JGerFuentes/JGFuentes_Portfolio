@@ -6,14 +6,20 @@ const About = () => {
         <header>
             <img src="" alt="profile_pic" title="JGF"/>
             <h1>
-                Hi, there! 👋🏼 My name's Jose German Fuentes
+                Jose German Fuentes
             </h1>
             <h2>
                 Full Stack Web Developer
             </h2>
         </header>
         <main>
-            <p>Brief description, goals, etc...</p>
+            <p>
+                Hi, there! 👋🏼
+                <br/>
+                I aim to provide <strong>software solutions</strong> with <em>clear</em>, <em>maintainable</em>, <em>scalable</em> and <em>performant code</em>.
+                <br/>
+                I'm eager to learn from my peers, have the opportunity to add some value to their work and growth both as a developer and as a team-player.
+            </p>
         </main>
         <section>
             <button>LinkedIn</button>
