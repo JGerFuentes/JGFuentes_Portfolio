@@ -1,4 +1,4 @@
-import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, } from 'react-icons/bi'
+import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, } from 'react-icons/bi'
 
 const Presentation = () => {
   return (
@@ -21,11 +21,6 @@ const Presentation = () => {
                 <BiBuildingHouse /> <b>My values:</b> If you want a hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker, congratulations! You are in the right place! 🤝🏼
 
                 <br/>
-                <br/>
-
-                <b>Hi here! 👋🏼</b>
-
-                <br/>
                 <em>Sounds interesting to you?</em> <BiCheck />
 
                 <br/>
@@ -44,7 +39,7 @@ const Presentation = () => {
             <button><BiLogoLinkedinSquare /></button>
             <button><BiLogoGithub /></button>
             <button>Resume</button>
-            <span>jger_fuentes@outlook.com</span>
+            <span>jger_fuentes@outlook.com <BiPaste /></span>
         </section>
     </article>
     
