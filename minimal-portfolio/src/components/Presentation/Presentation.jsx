@@ -1,4 +1,4 @@
-import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiDownload, BiIdCard } from 'react-icons/bi'
+import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiCloudDownload, BiIdCard } from 'react-icons/bi'
 import { useState } from 'react'
 
 const Presentation = () => {
@@ -41,13 +41,23 @@ const Presentation = () => {
                 Please, come in and take a further look at my work! <BiDevices />
             </p>
         </main>
-        
+
         <section>
             <button><BiLogoLinkedinSquare /></button>
+            
             <button><BiLogoGithub /></button>
+
+            {/* <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                {hover ? <BiLinkExternal /> : <BiLogoLinkedinSquare />}
+            </button>
+
             <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                {hover ? <BiDownload /> : <BiIdCard />}
-                {hover ? '' : 'Resume'}
+                {hover ? <BiLinkExternal /> : <BiLogoGithub />}
+            </button> */}
+
+            <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                {hover ? <BiCloudDownload /> : <BiIdCard />}
+                {/* {hover ? '' : ' Resume'} */}
             </button>
             <span>jger_fuentes@outlook.com <BiPaste /></span>
         </section>
