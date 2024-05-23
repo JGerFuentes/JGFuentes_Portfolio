@@ -1,4 +1,4 @@
-import React from 'react'
+import { BiLogoJavascript, BiLogoHtml5, BiLogoCss3, BiLogoReact, BiLogoNodejs, BiLogoPostgresql } from "react-icons/bi"
 
 const Experience = () => {
   return (
@@ -6,11 +6,50 @@ const Experience = () => {
       <h2>Experience</h2>
 
       <section>
-        <h3><strong>Junior Back End Developer</strong></h3>
-        <h4><strong>KaroKids - Internship</strong></h4>
-        <h5>feb. 2024 - mar. 2024</h5>
-        <h5>Medellin, Antioquia, Colombia - Remote</h5>
-        <p> Goals: Increase sales volume by designing a B2C website exclusively dedicated to the promotion and commercialization of the store’s products. Enable direct and fluent communication between business and customers. The website includes: User registration and login protocols, administrator dashboard, user dashboard, shopping cart, favorites list, payment gateway, simple and intuitive interface. Stack: JavaScript, React, Vite, Redux-Toolkit, Tailwind, Firebase, Google Charts, Mercado Pago API, Nodejs, Expressjs, Nodemailer, HTML, CSS, Cloudinary, PostgreSQL, Sequelize</p>
+        <header>
+          <h3><strong>Junior Back End Developer</strong></h3>
+          <h4><strong>KaroKids - Internship</strong></h4>
+          <h5>Feb. 2024 - Mar. 2024</h5>
+          <h5>Medell&iacute;n, Antioqu&iacute;a, Colombia - Remote</h5>
+        </header>
+
+        {/* list-style-type: none; --> Quita las viñetas */ }
+        {/* margin: 0; --> Elimina el margen predeterminado */}
+        
+        {/* /* Opcional: Si también deseas eliminar las viñetas de otras listas anidadas
+        ul ul {
+            list-style-type: none;
+            padding-left: 20px; /* Mantén el sangrado para la jerarquía visual
+        } */}
+
+        <ul>
+          <ul>Achievements:
+            <li>Increase visibility and sales volume by designing an e-commerce website exclusively dedicated to the promotion and commercialization of the store&apos;s products.</li>
+            <li>Enable direct and fluent communication between business and customers.</li>
+          </ul>
+
+          <li>The website includes:
+            <ul>
+              <li>User registration and login protocols</li>
+              <li>Administrator and Users dashboard</li>
+              <li>Shopping cart</li>
+              <li>Favorites list</li>
+              <li>Payment gateway</li>
+              <li>Simple and intuitive interface</li>
+            </ul>
+          </li>
+          
+          <li>Stack:
+            <ul>
+              <li><BiLogoJavascript /></li>
+              <li><BiLogoHtml5 /></li>
+              <li><BiLogoCss3 /></li>
+              <li><BiLogoReact /></li>
+              <li><BiLogoNodejs /></li>
+              <li><BiLogoPostgresql /></li>
+            </ul>
+          </li>
+        </ul>
       </section>
     </article>
   )
