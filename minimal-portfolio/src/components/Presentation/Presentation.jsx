@@ -1,7 +1,10 @@
-import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, } from 'react-icons/bi'
+import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiDownload, BiIdCard } from 'react-icons/bi'
+import { useState } from 'react'
 
 const Presentation = () => {
-  return (
+    const [hover, setHover] = useState(false);
+
+    return (
     <article>
         <header>
             <img src="" alt="profile_pic" title="JGF"/>
@@ -12,19 +15,22 @@ const Presentation = () => {
                 Full Stack Web Developer
             </h2>
         </header>
+
         <main>
             <p>
                 <BiBookmarkHeart /> <b>My goal:</b> I aim to provide <strong>web & software solutions</strong> with <em>clear</em>, <em>maintainable</em>, <em>scalable</em> and <em>performant code</em>. 👨🏻‍💻
 
                 <br/>
 
-                <BiBuildingHouse /> <b>My values:</b> If you want a hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker, congratulations! You are in the right place! 🤝🏼
+                <BiBuildingHouse /> <b>My values:</b> Hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker. 🤝🏼
 
                 <br/>
+
                 <em>Sounds interesting to you?</em> <BiCheck />
 
                 <br/>
-                <em>You share my same principles?</em> <BiCheckDouble />
+
+                <em>Do you share my same principles?</em> <BiCheckDouble />
                 
                 <br/>
 
@@ -35,15 +41,19 @@ const Presentation = () => {
                 Please, come in and take a further look at my work! <BiDevices />
             </p>
         </main>
+        
         <section>
             <button><BiLogoLinkedinSquare /></button>
             <button><BiLogoGithub /></button>
-            <button>Resume</button>
+            <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                {hover ? <BiDownload /> : <BiIdCard />}
+                {hover ? '' : 'Resume'}
+            </button>
             <span>jger_fuentes@outlook.com <BiPaste /></span>
         </section>
     </article>
-    
-  )
+
+    )
 }
 
 export default Presentation
