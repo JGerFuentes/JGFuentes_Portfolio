@@ -1,4 +1,4 @@
-import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiCloudDownload, BiIdCard } from 'react-icons/bi'
+import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiDownload, BiIdCard } from 'react-icons/bi'
 import { useState } from 'react'
 
 const Presentation = () => {
@@ -56,7 +56,7 @@ const Presentation = () => {
             </button> */}
 
             <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                {hover ? <BiCloudDownload /> : <BiIdCard />}
+                {hover ? <BiDownload /> : <BiIdCard />}
                 {/* {hover ? '' : ' Resume'} */}
             </button>
             <span>jger_fuentes@outlook.com <BiPaste /></span>
