@@ -4,7 +4,9 @@ const Stack = () => {
   return (
     <article>
       <section>
-        <h2>Stack</h2>
+        <h2>My Weapons</h2>
+        <h3>Stack</h3>
+        <h4>This is my everyday stack: </h4>
         <ul>
           <li><SiJavascript /></li>
           <li><SiHtml5 /></li>
@@ -20,14 +22,15 @@ const Stack = () => {
         </ul>
       </section>
       <section>
-        <h2>Other technologies</h2>
+        <h3>Other technologies</h3>
+        <h4>Tools that I usually work with: </h4>
         <ul>
           <li><SiVisualstudiocode /></li>
           <li><SiGit /></li>
           <li><SiNpm /></li>
-          {/* <li><SiVercel /></li> */}
+          <li><SiVercel /></li>
           <li><SiRapid /></li>
-          {/* <li><SiVitest /></li> */}
+          <li><SiVitest /></li>
           <li><SiNodemon /></li>
           <li><SiFigma /></li>
           <li><SiSlack /></li>
@@ -36,7 +39,8 @@ const Stack = () => {
         </ul>
       </section>
       <section>
-        <h2>Currently learning</h2>
+        <h3>New technologies</h3>
+        <h4>These are the ones that I&apos;m currently learning: </h4>
         <ul>
           <li><SiC /></li>
           <li><SiTypescript /></li>
