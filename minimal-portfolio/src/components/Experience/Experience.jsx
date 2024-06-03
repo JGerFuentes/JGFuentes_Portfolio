@@ -1,4 +1,4 @@
-import { BiLogoJavascript, BiLogoHtml5, BiLogoCss3, BiLogoReact, BiLogoNodejs, BiLogoPostgresql } from "react-icons/bi"
+import { SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiPostgresql } from "react-icons/si"
 
 const Experience = () => {
   return (
@@ -41,12 +41,12 @@ const Experience = () => {
           
           <li>Stack:
             <ul>
-              <li><BiLogoJavascript /></li>
-              <li><BiLogoHtml5 /></li>
-              <li><BiLogoCss3 /></li>
-              <li><BiLogoReact /></li>
-              <li><BiLogoNodejs /></li>
-              <li><BiLogoPostgresql /></li>
+              <li><SiJavascript /></li>
+              <li><SiHtml5 /></li>
+              <li><SiCss3 /></li>
+              <li><SiReact /></li>
+              <li><SiNodedotjs /></li>
+              <li><SiPostgresql /></li>
             </ul>
           </li>
         </ul>
