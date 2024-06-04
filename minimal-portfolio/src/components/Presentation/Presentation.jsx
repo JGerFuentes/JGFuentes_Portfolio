@@ -9,7 +9,7 @@ const Presentation = () => {
         <header>
             <img src="" alt="profile_pic" title="JGF"/>
             <h1>
-                Jose German Fuentes
+                Jos&eacute; Germ&aacute;n Fuentes (JGerFuentes)
             </h1>
             <h2>
                 Full Stack Web Developer
