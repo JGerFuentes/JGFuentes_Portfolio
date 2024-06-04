@@ -1,4 +1,4 @@
-import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiRedux, SiNodedotjs, SiExpress, SiPostgresql, SiSequelize, SiJest, SiVisualstudiocode, SiGit, SiNpm, SiVercel, SiRapid, SiVitest, SiNodemon, SiFigma, SiSlack, SiTrello, SiNotion, SiC, SiTypescript, SiTailwindcss,  } from "react-icons/si";
+import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiRedux, SiNodedotjs, SiExpress, SiPostgresql, SiSequelize, SiJest, SiVisualstudiocode, SiGithub, SiGnubash, SiGit, SiNpm, SiAxios, SiVercel, SiRapid, SiVitest, SiNodemon, SiFigma, SiSlack, SiTrello, SiNotion, SiC, SiTypescript, SiTailwindcss,  } from "react-icons/si";
 
 const Stack = () => {
   return (
@@ -26,12 +26,15 @@ const Stack = () => {
         <h4>Tools that I usually work with: </h4>
         <ul>
           <li><SiVisualstudiocode /></li>
+          <li><SiGithub /></li>
+          <li><SiGnubash /></li>
           <li><SiGit /></li>
           <li><SiNpm /></li>
-          <li><SiVercel /></li>
+          <li><SiAxios /></li>
           <li><SiRapid /></li>
-          <li><SiVitest /></li>
+          {/* <li><SiVitest /></li> */}
           <li><SiNodemon /></li>
+          <li><SiVercel /></li>
           <li><SiFigma /></li>
           <li><SiSlack /></li>
           <li><SiTrello /></li>
