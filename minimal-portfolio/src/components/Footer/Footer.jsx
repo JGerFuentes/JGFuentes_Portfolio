@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <footer>
-        Developed by JGerFuentes 🙏🏼 | 📆 2024
+        Developed by JGerFuentes🤘🏼 | Namaste 🙏🏼 | 📆 2024
     </footer>
   )
 }
