@@ -3,6 +3,9 @@ import { useState } from 'react'
 
 const Presentation = () => {
     const [hover, setHover] = useState(false);
+    const [hoverA, setHoverA] = useState(false);
+    const [hoverB, setHoverB] = useState(false);
+
 
     return (
     <article>
@@ -43,22 +46,22 @@ const Presentation = () => {
         </main>
 
         <section>
-            <button><BiLogoLinkedinSquare /></button>
+            {/* <button><BiLogoLinkedinSquare /></button> */}
             
-            <button><BiLogoGithub /></button>
+            {/* <button><BiLogoGithub /></button> */}
 
-            {/* <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                {hover ? <BiLinkExternal /> : <BiLogoLinkedinSquare />}
+            <button onMouseEnter={() => setHoverA(true)} onMouseLeave={() => setHoverA(false)}>
+                {hoverA ? <BiLinkExternal /> : <BiLogoLinkedinSquare />}
             </button>
 
-            <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                {hover ? <BiLinkExternal /> : <BiLogoGithub />}
-            </button> */}
+            <button onMouseEnter={() => setHoverB(true)} onMouseLeave={() => setHoverB(false)}>
+                {hoverB ? <BiLinkExternal /> : <BiLogoGithub />}
+            </button>
 
             <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                 {hover ? <BiDownload /> : <BiIdCard />}
-                {/* {hover ? '' : ' Resume'} */}
             </button>
+
             <span>jger_fuentes@outlook.com <BiPaste /></span>
         </section>
     </article>
