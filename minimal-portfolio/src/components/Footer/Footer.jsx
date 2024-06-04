@@ -1,10 +1,9 @@
-import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        Here is my Footer
-    </div>
+    <footer>
+        Developed by JGerFuentes🤘🏼 | Namaste 🙏🏼 | 📆 2024
+    </footer>
   )
 }
 
