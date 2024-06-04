@@ -1,10 +1,11 @@
-import React from 'react'
 
 const ErrorPage = () => {
   return (
-    <div>
-        This is my ErrorPage
-    </div>
+    <article>
+        <h2>Error 404!</h2>
+        <img/>
+        <p>Some funny text</p>
+    </article>
   )
 }
 
