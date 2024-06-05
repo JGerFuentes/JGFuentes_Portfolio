@@ -16,6 +16,7 @@ const Navbar = () => {
             <img src="/my_icon.jpg" title="JGF_FullStackDev" alt="JGF_icon"/>
           </Link>
         </li>
+
         <li>
           <Link to='/about'>
             <button>
@@ -26,19 +27,25 @@ const Navbar = () => {
 
         <li>
           <button>
-            <ScrollLink to='experience' {...scrollOptions}>My Experience</ScrollLink>
+            <ScrollLink to='experience' {...scrollOptions}>
+              My Experience
+            </ScrollLink>
           </button>
         </li>
 
         <li>
           <button>
-            <ScrollLink  crollLink to='projects' {...scrollOptions}>My Projects</ScrollLink>
+            <ScrollLink to='projects' {...scrollOptions}>
+              My Projects
+            </ScrollLink>
           </button>
         </li>
 
         <li>
           <button>
-            <ScrollLink to='stack' {...scrollOptions}>My weapons</ScrollLink>
+            <ScrollLink to='stack' {...scrollOptions}>
+              My weapons
+            </ScrollLink>
           </button>
         </li>
       </ul>
