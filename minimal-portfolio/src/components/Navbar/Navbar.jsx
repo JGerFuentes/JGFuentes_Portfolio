@@ -18,11 +18,11 @@ const Navbar = () => {
         </li>
 
         <li>
-          <Link to='/about'>
-            <button>
-              Who am I?
-            </button>
-          </Link>
+          <button>
+            <ScrollLink to='presentation'>
+                Who am I?
+            </ScrollLink>
+          </button>
         </li>
 
         <li>

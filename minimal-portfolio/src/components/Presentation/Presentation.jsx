@@ -19,16 +19,18 @@ const Presentation = () => {
             </h2>
         </header>
 
-        <main>
+        <section>
             <p>
                 <BiBookmarkHeart /> <b>My goal:</b> I aim to provide <strong>web & software solutions</strong> with <em>clear</em>, <em>maintainable</em>, <em>scalable</em> and <em>performant code</em>. 👨🏻‍💻
 
                 <br/>
 
                 <BiBuildingHouse /> <b>My values:</b> Hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker. 🤝🏼
+            </p>
+        </section>
 
-                <br/>
-
+        <section>
+            <p>
                 <em>Sounds interesting to you?</em> <BiCheck />
 
                 <br/>
@@ -43,29 +45,31 @@ const Presentation = () => {
 
                 Please, come in and take a further look at my work! <BiDevices />
             </p>
-        </main>
+        </section>
 
         <section>
-            {/* <button><BiLogoLinkedinSquare /></button> */}
-            
-            {/* <button><BiLogoGithub /></button> */}
-
-            <button onMouseEnter={() => setHoverA(true)} onMouseLeave={() => setHoverA(false)}>
-                {hoverA ? <BiLinkExternal /> : <BiLogoLinkedinSquare />}
-            </button>
-
-            <button onMouseEnter={() => setHoverB(true)} onMouseLeave={() => setHoverB(false)}>
-                {hoverB ? <BiLinkExternal /> : <BiLogoGithub />}
-            </button>
-
-            <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                {hover ? <BiDownload /> : <BiIdCard />}
-            </button>
-
-            <span>jger_fuentes@outlook.com <BiPaste /></span>
+            <ul>
+                <li>
+                    <button onMouseEnter={() => setHoverA(true)} onMouseLeave={() => setHoverA(false)}>
+                        {hoverA ? <BiLinkExternal /> : <BiLogoLinkedinSquare />}
+                    </button>
+                </li>
+                <li>
+                    <button onMouseEnter={() => setHoverB(true)} onMouseLeave={() => setHoverB(false)}>
+                        {hoverB ? <BiLinkExternal /> : <BiLogoGithub />}
+                    </button>
+                </li>
+                <li>
+                    <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                        {hover ? <BiDownload /> : <BiIdCard />}
+                    </button>
+                </li>
+                <li>
+                    <span>jger_fuentes@outlook.com <BiPaste /></span>
+                </li>
+            </ul>
         </section>
     </article>
-
     )
 }
 
