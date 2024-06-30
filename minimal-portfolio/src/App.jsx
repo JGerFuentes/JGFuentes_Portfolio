@@ -9,8 +9,32 @@ import './App.css'
 
 function App() {
   const { pathname } = useLocation();
-  let [error, setError] = useState(false);
   
+  const [error, setError] = useState(false);
+  const [theme, setTheme] = useState(() => {
+    const initialTheme = localStorage.getItem('theme')
+    return initialTheme ? initialTheme : 'light'
+  })
+
+  const getThemeFromLocalStorage = () => {
+    const savedTheme = localStorage.getItem('theme')
+    if (savedTheme) {
+      setTheme(savedTheme)
+    }
+  }
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => {
+      const newTheme = prevTheme === 'light' ? 'dark' : 'light'
+      localStorage.setItem('theme', newTheme)
+      return newTheme
+    })
+  }
+  
+  useEffect(() => {
+    getThemeFromLocalStorage()
+  }, [theme])
+
   useEffect(() => {
     if (pathname !== '/') {
       setError(true);
@@ -23,7 +47,7 @@ function App() {
   return (
     <>
       <header>
-        <Navbar wrongPath={error}/>
+        <Navbar wrongPath={error} toggleTheme={toggleTheme}/>
       </header>
       
       <main>
