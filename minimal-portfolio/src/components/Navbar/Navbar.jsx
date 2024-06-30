@@ -60,6 +60,12 @@ const Navbar = ({wrongPath, toggleTheme}) => {
               Theme selector
             </button>
           </li>
+
+          <li>
+            <button>
+              🌐
+            </button>
+          </li>
         </ul>
       )
       }
