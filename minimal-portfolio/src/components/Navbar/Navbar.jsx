@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 
-const Navbar = ({wrongPath}) => {
+const Navbar = ({wrongPath, toggleTheme}) => {
   const scrollOptions = {
     smooth: 'easeInOutQuint',
     duration: 500,
@@ -52,6 +52,12 @@ const Navbar = ({wrongPath}) => {
               <ScrollLink to='stack' {...scrollOptions}>
                 My weapons
               </ScrollLink>
+            </button>
+          </li>
+
+          <li>
+            <button onClick={toggleTheme}>
+              Theme selector
             </button>
           </li>
         </ul>
