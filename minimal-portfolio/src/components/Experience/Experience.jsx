@@ -9,6 +9,7 @@ const Experience = () => {
         <header>
           <h3><strong>Junior Back End Developer</strong></h3>
           <h4><strong>KaroKids - Internship</strong></h4>
+          <img src="https://res.cloudinary.com/dgfnyw7u9/image/upload/v1720249068/Preview_KaroKids_Web_apmtdq.png" alt="KaroKids_Preview" title="KaroKids_Preview" height={150} width={300}/>
           <h5>Feb. 2024 - Mar. 2024</h5>
           <h5>Medell&iacute;n, Antioqu&iacute;a, Colombia - Remote</h5>
         </header>

@@ -6,7 +6,7 @@ const Projects = () => {
       <h2>My Projects</h2>
       <section>
         <h3>Drivers App</h3>
-        <img src='/LandingPage_1.png' alt='F1_project_pic' title='Drivers_App' height={150} width={300}/>
+        <img src="https://res.cloudinary.com/dgfnyw7u9/image/upload/v1720249022/LandingPage_1_wznwcq.png" alt="Drivers_App_Preview" title="Drivers_App_Preview" height={150} width={300}/>
         <h4>Single Page Application (SPA) "Formula 1" themed with a simple design and intuitive navigation for the presentation and creation of F1 drivers.</h4>
         <p>The website includes:</p> 
         <ul>
