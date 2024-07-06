@@ -7,16 +7,13 @@ const Navbar = ({wrongPath, toggleTheme}) => {
     duration: 500,
     offset: 10,
   }
-
-  //* How to implement theme-switcher: https://saurabhnativeblog.medium.com/react30-project-16-implementing-theme-switching-in-a-react-web-app-9f59279ea5ed
-  //* Using localStorage: https://selftaughttxg.com/2023/05-23/learn-local-storage-in-react-create-a-light-and-dark-theme-switcher-application/
   
   return (
     <nav>
       <ul>
         <li>
           <Link to='/'>
-            <img src="/my_icon.jpg" title="JGF_FullStackDev" alt="JGF_icon"/>
+            <img src="https://res.cloudinary.com/dgfnyw7u9/image/upload/v1718175103/my_icon__kldurr.jpg" alt="JGF_FullStackDev" title="JGF_FullStackDev"  height={100} width={100}/>
           </Link>
         </li>
       </ul>

@@ -10,7 +10,7 @@ const Presentation = () => {
     return (
     <article>
         <header>
-            <img src="" alt="profile_pic" title="JGF"/>
+            <img src="https://res.cloudinary.com/dgfnyw7u9/image/upload/v1720249581/Perfil_1_Webp_fgs563.webp" alt="profile_pic" title="JGF" height="200px" width="200px"/>
             <h1>
                 Jos&eacute; Germ&aacute;n Fuentes (JGerFuentes)
             </h1>
