@@ -1,0 +1,16 @@
+{
+    "buttons": {
+        "profile": "Who am I?",
+        "experience": "My experience",
+        "projects": "My projects",
+        "weapons": "My weapons",
+        "language": "English(US)"
+    },
+    "title": "Full Stack Web Developer",
+    "goal":"//define it with Trans component",
+    "values": "//define it",
+    "interest":"Sounds interesting to you?",
+    "share": "Do you share my same principles?",
+    "motto": "How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and experience and to grow both as a developer and as a team-player.",
+    "invitation":"Please, come in and take a further look at my work!"
+}
