@@ -9,21 +9,17 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18n
     .use(initReactI18next) //we pass the i18n instance to react-i18next which will make it available for all the components.
-    
-    // .use(Backend)
-    
     .use(LanguageDetector) // Detect user language
-    // // learn more: https://github.com/i18next/i18next-browser-languageDetector
-
+    // .use(Backend) //Allows the use of locales directory with all the needed translations.
+    
     //init i18next
     .init({ 
-        // lng: document.querySelector('html').lang, //Added to identify the html language.
-        fallbackLng: 'en',
-        debug: true,
-
-        interpolation: {
-            escapeValue: false, // not needed for react as it escapes by default
-        }
+        // lng: document.querySelector('html').lang, //Identifies the html language. NOt needed when using LanguageDetector
+        fallbackLng: 'en', //In case there is no translation available.
+        debug: true, //For debugging purposes.
+        // detection: {
+        //     order: ['navigator', 'cookie', 'localStorage', 'sessionStorage', 'path', 'subdomain'],
+        // }
     });
 
 

@@ -1,5 +1,5 @@
-import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiDownload, BiIdCard } from 'react-icons/bi'
-import { useState } from 'react'
+import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiDownload, BiIdCard } from 'react-icons/bi';
+import { useState } from 'react';
 
 const Presentation = () => {
     const [hover, setHover] = useState(false);
@@ -39,7 +39,7 @@ const Presentation = () => {
                 
                 <br/>
 
-                <BiCoffeeTogo /> How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and experience and to grow both as a developer and as a team-player. 🚀
+                <BiCoffeeTogo /> How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and knowledge and to grow both as a developer and as a team-player. 🚀
 
                 <br/>
 
@@ -73,4 +73,4 @@ const Presentation = () => {
     )
 }
 
-export default Presentation
+export default Presentation;

@@ -1,0 +1,44 @@
+{
+    "nav-buttons": {
+        "profile": "Who am I?",
+        "experience": "My experience",
+        "projects": "My projects",
+        "weapons": "My weapons",
+        "language": "English(US)"
+    },
+    "presentation": {
+        "title": "Full Stack Web Developer",
+        "goal":"//define it with Trans component",
+        "values": "//define it",
+        "interest":"Sounds interesting to you?",
+        "share": "Do you share my same principles?",
+        "motto": "How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and knowledge and to grow both as a developer and as a team-player.",
+        "invitation":"Please, come in and take a further look at my work!"
+    },
+    "experience": {
+        "title": "My Experience",
+        "job-title": "Junior Back End Developer",
+        "company": "KaroKids - Internship",
+        "date": "Feb. 2024 - Mar. 2024",
+        "location": "Remote",
+        "achievements": "//define",
+        "description": "//define",
+        "features": "//define"
+    },
+    "projects": {
+        "title": "My Projects",
+        "brief-1": "Single Page Application (SPA) 'Formula 1' themed with a simple design and intuitive navigation for the presentation and creation of F1 drivers.",
+        "features-1": "//define",
+        "brief-2": "Single Page Application (SPA) for the visualization of and interaction with the characters from the 'Rick and Morty' animated series.",
+        "features-2": "//define"
+    },
+    "stack": {
+        "title": "My weapons",
+        "everyday-stack": "This is my everyday stack",
+        "methodologies":"//define",
+        "subtitle-1": "Other technologies",
+        "tools": "Tools that I usually work with and that I&apos;m familiar to:",
+        "subtitle-2": "New technologies",
+        "learning": "These are the ones that I&apos;m currently learning:"
+    }
+}
