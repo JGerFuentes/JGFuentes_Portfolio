@@ -31,5 +31,14 @@
         "features-1": "//define",
         "brief-2": "Single Page Application (SPA) for the visualization of and interaction with the characters from the 'Rick and Morty' animated series.",
         "features-2": "//define"
+    },
+    "stack": {
+        "title": "My weapons",
+        "everyday-stack": "This is my everyday stack",
+        "methodologies":"//define",
+        "subtitle-1": "Other technologies",
+        "tools": "Tools that I usually work with and that I&apos;m familiar to:",
+        "subtitle-2": "New technologies",
+        "learning": "These are the ones that I&apos;m currently learning:"
     }
 }
