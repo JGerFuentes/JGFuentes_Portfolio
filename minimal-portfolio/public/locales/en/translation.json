@@ -8,12 +8,12 @@
     },
     "presentation": {
         "title": "Full Stack Web Developer",
-        "goal":"//define it with Trans component",
-        "values": "//define it",
-        "interest":"Sounds interesting to you?",
-        "share": "Do you share my same principles?",
-        "motto": "How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and knowledge and to grow both as a developer and as a team-player.",
-        "invitation":"Please, come in and take a further look at my work!"
+        "goal":"<0>My goal:</0> I aim to provide <strong>web & software solutions</strong> with <4>clear</4>, <6>maintainable</6>, <8>scalable</8> and <10>performant code</10>. ",
+        "values": "<0>My values:</0> Hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker. ",
+        "interest":"Sounds interesting to you? ",
+        "share": "Do you share my same principles? ",
+        "motto": "How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and knowledge and to grow both as a developer and as a team-player. ",
+        "invitation":"Please, come in and take a further look at my work! "
     },
     "experience": {
         "title": "My Experience",
