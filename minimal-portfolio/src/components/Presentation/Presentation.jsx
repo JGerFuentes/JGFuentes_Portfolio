@@ -1,7 +1,10 @@
-import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiDownload, BiIdCard } from 'react-icons/bi';
+import { useTranslation, Trans } from 'react-i18next';
 import { useState } from 'react';
+import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiDownload, BiIdCard } from 'react-icons/bi';
 
 const Presentation = () => {
+    const { t } = useTranslation();
+
     const [hover, setHover] = useState(false);
     const [hoverA, setHoverA] = useState(false);
     const [hoverB, setHoverB] = useState(false);
@@ -15,35 +18,44 @@ const Presentation = () => {
                 Jos&eacute; Germ&aacute;n Fuentes (JGerFuentes)
             </h1>
             <h2>
-                Full Stack Web Developer
+                { t('presentation.title') }
             </h2>
         </header>
 
         <section>
             <p>
-                <BiBookmarkHeart /> <b>My goal:</b> I aim to provide <strong>web & software solutions</strong> with <em>clear</em>, <em>maintainable</em>, <em>scalable</em> and <em>performant code</em>. 👨🏻‍💻
+                <BiBookmarkHeart /> 
+                <Trans i18nKey='presentation.goal'>
+                    <b>My goal:</b> I aim to provide <strong>web & software solutions</strong> with <em>clear</em>, <em>maintainable</em>, <em>scalable</em> and <em>performant</em> code.
+                </Trans>
+                👨🏻‍💻
 
                 <br/>
 
-                <BiBuildingHouse /> <b>My values:</b> Hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker. 🤝🏼
+                <BiBuildingHouse /> 
+                <Trans i18nKey='presentation.values'>
+                    <b>My values:</b> Hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker.
+                </Trans>
+                🤝🏼
             </p>
         </section>
 
         <section>
             <p>
-                <em>Sounds interesting to you?</em> <BiCheck />
+                <em>{ t('presentation.interest') }</em> <BiCheck />
 
                 <br/>
 
-                <em>Do you share my same principles?</em> <BiCheckDouble />
+                <em>{ t('presentation.share') }</em> <BiCheckDouble />
                 
                 <br/>
+                <br/>
 
-                <BiCoffeeTogo /> How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and knowledge and to grow both as a developer and as a team-player. 🚀
+                <BiCoffeeTogo /> { t('presentation.motto') } 🚀
 
                 <br/>
 
-                Please, come in and take a further look at my work! <BiDevices />
+                { t('presentation.invitation') } <BiDevices />
             </p>
         </section>
 

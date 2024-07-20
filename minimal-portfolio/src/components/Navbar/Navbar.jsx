@@ -1,7 +1,10 @@
-import { Link } from 'react-router-dom'
-import { Link as ScrollLink } from 'react-scroll'
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = ({wrongPath, toggleTheme}) => {
+  const { t } = useTranslation();
+
   const scrollOptions = {
     smooth: 'easeInOutQuint',
     duration: 500,
@@ -23,7 +26,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='presentation'>
-                  Who am I?
+                  { t('nav-buttons.profile') }
               </ScrollLink>
             </button>
           </li>
@@ -31,7 +34,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='experience' {...scrollOptions}>
-                My Experience
+                { t('nav-buttons.experience') }
               </ScrollLink>
             </button>
           </li>
@@ -39,7 +42,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='projects' {...scrollOptions}>
-                My Projects
+                { t('nav-buttons.projects') }
               </ScrollLink>
             </button>
           </li>
@@ -47,20 +50,20 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='stack' {...scrollOptions}>
-                My weapons
+                { t('nav-buttons.weapons') }
               </ScrollLink>
             </button>
           </li>
 
           <li>
             <button onClick={toggleTheme}>
-              Theme selector
+              🌞 / 🌛
             </button>
           </li>
 
           <li>
             <button>
-              🌐
+              🌐 { t('nav-buttons.language') }
             </button>
           </li>
         </ul>

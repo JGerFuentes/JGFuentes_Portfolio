@@ -4,16 +4,16 @@
         "experience": "My experience",
         "projects": "My projects",
         "weapons": "My weapons",
-        "language": "English(US)"
+        "language": "English (US)"
     },
     "presentation": {
         "title": "Full Stack Web Developer",
-        "goal":"//define it with Trans component",
-        "values": "//define it",
-        "interest":"Sounds interesting to you?",
-        "share": "Do you share my same principles?",
-        "motto": "How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and knowledge and to grow both as a developer and as a team-player.",
-        "invitation":"Please, come in and take a further look at my work!"
+        "goal":" <0>My goal:</0> I aim to provide <strong>web & software solutions</strong> with <4>clear</4>, <6>maintainable</6>, <8>scalable</8> and <10>performant</10> code. ",
+        "values": " <0>My values:</0> Hard-working, relentless, self-driven, enthusiastic and committed employee, as well as a reliable, empathetic, respectful and cooperative co-worker. ",
+        "interest":"Sounds interesting to you? ",
+        "share": "Do you share my same principles? ",
+        "motto": " How convenient! I'm just looking for new working experiences that allow me to learn from my peers, have the opportunity to make a difference with my background and knowledge and to grow both as a developer and as a team-player. ",
+        "invitation":"Please, come in and take a further look at my work! "
     },
     "experience": {
         "title": "My Experience",
@@ -21,24 +21,25 @@
         "company": "KaroKids - Internship",
         "date": "Feb. 2024 - Mar. 2024",
         "location": "Remote",
-        "achievements": "//define",
-        "description": "//define",
-        "features": "//define"
+        "description": "<strong>Description:</strong><1><0>I was part of an 8-member team working under <1>Agile/Scrum methodologies</1> in the development from scratch of an entire e-commerce platform for the store. I was mainly in charge of the database modeling, the e-mail notification features, and the image management service for the website. I also collaborated in the general logic development of some routes, handlers, and controllers, and the integration of a third party RESTful payment API (MercadoPago).</0></1>",
+        "achievements": "<strong>Achievements:</strong><1><0>Increase visibility and sales volume by designing an e-commerce website exclusively dedicated to the promotion and commercialization of the store's products.</0><1>Enable direct and fluent communication between business and customers.</1></1>",
+        "features": "<strong>The website includes:</strong><1><0>User registration and login protocols</0><1>Administrator and Users dashboard</1><2>Shopping cart</2><3>Favorites list</3><4>Payment gateway</4><5>Simple and intuitive interface</5></1>"
     },
     "projects": {
         "title": "My Projects",
         "brief-1": "Single Page Application (SPA) 'Formula 1' themed with a simple design and intuitive navigation for the presentation and creation of F1 drivers.",
-        "features-1": "//define",
+        "features-1": "<strong>The website includes:</strong><1><0>Landing page with a call to action button.</0><1>Home page with paginated results view.</1><2>Search bar to search drivers by name.</2><3>Combined filters and sorting options.</3><4>Drivers' details view.</4><5>Driver creation form.</5><6>RESTful API integration.</6><7>Storage in relational database.</7><8>Full-responsive design.</8><9>Unitary and integrational testing for the Back end.</9></1>",
         "brief-2": "Single Page Application (SPA) for the visualization of and interaction with the characters from the 'Rick and Morty' animated series.",
-        "features-2": "//define"
+        "features-2": "<strong>The website includes:</strong><1><0>Landing page with a call to action button.</0><1>Home page for the presentation of characters.</1><2>Search bar to search characters by name.</2><3>Combined filters and sorting options.</3><4>Characters' details view.</4><5>Rick and Morty RESTful API integration.</5><6>Full-responsive design.</6><7>Unitary and integrational testing for the Back end.</7></1>"
     },
     "stack": {
         "title": "My weapons",
         "everyday-stack": "This is my everyday stack",
-        "methodologies":"//define",
+        "methodologies":"Methodologies: ",
         "subtitle-1": "Other technologies",
-        "tools": "Tools that I usually work with and that I&apos;m familiar to:",
+        "tools": "Tools that I usually work with and that I&apos;m familiar to: ",
         "subtitle-2": "New technologies",
-        "learning": "These are the ones that I&apos;m currently learning:"
+        "learning": "These are the ones that I&apos;m currently learning: ",
+        "c-language": " C language "
     }
 }
