@@ -1,13 +1,16 @@
+import { useTranslation, Trans } from "react-i18next";
 import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiRedux, SiNodedotjs, SiExpress, SiPostgresql, SiSequelize, SiJest, SiPostman, SiVisualstudiocode, SiGithub, SiGnubash, SiGit, SiNpm, SiAxios, SiVercel, SiRapid, SiNodemon, SiFigma, SiSlack, SiTrello, SiJira, SiNotion, SiC, SiTypescript, SiTailwindcss, SiNextdotjs, SiMongodb, SiPlaywright } from "react-icons/si";
 
 const Stack = () => {
+  const { t } = useTranslation();
+
   return (
     <article>
-      <h2>My Weapons</h2>
+      <h2>{ t('stack.title') }</h2>
 
       <section>
         <h3>Stack</h3>
-        <strong>This is my everyday stack:</strong>
+        <strong>{ t('stack.everyday-stack') }</strong>
         <ul>
           <li><SiJavascript size={35}/> - JavaScript</li>
           <li><SiHtml5 size={35}/> - HTML5</li>
@@ -21,13 +24,13 @@ const Stack = () => {
           <li><SiSequelize size={35}/> - Sequelize</li>
           <li><SiJest size={35}/> - Jest</li>
           <li><SiPostman size={35}/> - Postman</li>
-          <li><b>Methodologies:</b> Agile / Scrum</li>
+          <li><b>{ t('stack.methodologies') }</b> Agile / Scrum</li>
         </ul>
       </section>
       
       <section>
-        <h3>Other technologies</h3>
-        <strong>Tools that I usually work with and that I&apos;m familiar to:</strong>
+        <h3>{ t('stack.subtitle-1') }</h3>
+        <strong>{ t('stack.tools') }</strong>
         <ul>
           <li><SiVisualstudiocode size={35}/> - VSCode</li>
           <li><SiGithub size={35}/> - Github</li>
@@ -44,10 +47,10 @@ const Stack = () => {
       </section>
 
       <section>
-        <h3>New technologies</h3>
-        <strong>These are the ones that I&apos;m currently learning:</strong>
+        <h3>{ t('stack.subtitle-2') }</h3>
+        <strong>{ t('stack.learning') }</strong>
         <ul>
-          <li><SiC size={35}/> - C language</li>
+          <li><SiC size={35}/> - { t('stack.c-language') }</li>
           <li><SiTypescript size={35}/> - TypeScript</li>
           <li><SiTailwindcss size={35}/> - TailwindCSS</li>
           <li><SiNextdotjs size={35}/> - NextJS</li>
