@@ -26,7 +26,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='presentation'>
-                  {t('nav-buttons.profile')}
+                  { t('nav-buttons.profile') }
               </ScrollLink>
             </button>
           </li>
@@ -34,7 +34,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='experience' {...scrollOptions}>
-                {t('nav-buttons.experience')}
+                { t('nav-buttons.experience') }
               </ScrollLink>
             </button>
           </li>
@@ -42,7 +42,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='projects' {...scrollOptions}>
-                {t('nav-buttons.projects')}
+                { t('nav-buttons.projects') }
               </ScrollLink>
             </button>
           </li>
@@ -50,7 +50,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
           <li>
             <button>
               <ScrollLink to='stack' {...scrollOptions}>
-                {t('nav-buttons.weapons')}
+                { t('nav-buttons.weapons') }
               </ScrollLink>
             </button>
           </li>
@@ -63,7 +63,7 @@ const Navbar = ({wrongPath, toggleTheme}) => {
 
           <li>
             <button>
-              🌐 {t('nav-buttons.language')}
+              🌐 { t('nav-buttons.language') }
             </button>
           </li>
         </ul>

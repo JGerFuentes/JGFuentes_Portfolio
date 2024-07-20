@@ -18,7 +18,7 @@ const Presentation = () => {
                 Jos&eacute; Germ&aacute;n Fuentes (JGerFuentes)
             </h1>
             <h2>
-                {t('presentation.title')}
+                { t('presentation.title') }
             </h2>
         </header>
 
@@ -42,20 +42,20 @@ const Presentation = () => {
 
         <section>
             <p>
-                <em>{t('presentation.interest')}</em> <BiCheck />
+                <em>{ t('presentation.interest') }</em> <BiCheck />
 
                 <br/>
 
-                <em>{t('presentation.share')}</em> <BiCheckDouble />
+                <em>{ t('presentation.share') }</em> <BiCheckDouble />
                 
                 <br/>
                 <br/>
 
-                <BiCoffeeTogo /> {t('presentation.motto')} 🚀
+                <BiCoffeeTogo /> { t('presentation.motto') } 🚀
 
                 <br/>
 
-                {t('presentation.invitation')} <BiDevices />
+                { t('presentation.invitation') } <BiDevices />
             </p>
         </section>
 
