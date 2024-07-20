@@ -21,9 +21,9 @@
         "company": "KaroKids - Internship",
         "date": "Feb. 2024 - Mar. 2024",
         "location": "Remote",
-        "achievements": "//define",
-        "description": "//define",
-        "features": "//define"
+        "description": "<strong>Description:</strong><1><0>I was part of an 8-member team working under <1>Agile/Scrum methodologies</1> in the development from scratch of an entire e-commerce platform for the store. I was mainly in charge of the database modeling, the e-mail notification features, and the image management service for the website. I also collaborated in the general logic development of some routes, handlers, and controllers, and the integration of a third party RESTful payment API (MercadoPago).</0></1>",
+        "achievements": "<strong>Achievements:</strong><1><0>Increase visibility and sales volume by designing an e-commerce website exclusively dedicated to the promotion and commercialization of the store's products.</0><1>Enable direct and fluent communication between business and customers.</1></1>",
+        "features": "<strong>The website includes:</strong><1><0>User registration and login protocols</0><1>Administrator and Users dashboard</1><2>Shopping cart</2><3>Favorites list</3><4>Payment gateway</4><5>Simple and intuitive interface</5></1>"
     },
     "projects": {
         "title": "My Projects",
