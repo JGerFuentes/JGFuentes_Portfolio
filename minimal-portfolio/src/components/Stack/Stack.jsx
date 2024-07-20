@@ -1,4 +1,4 @@
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiRedux, SiNodedotjs, SiExpress, SiPostgresql, SiSequelize, SiJest, SiPostman, SiVisualstudiocode, SiGithub, SiGnubash, SiGit, SiNpm, SiAxios, SiVercel, SiRapid, SiNodemon, SiFigma, SiSlack, SiTrello, SiJira, SiNotion, SiC, SiTypescript, SiTailwindcss, SiNextdotjs, SiMongodb, SiPlaywright } from "react-icons/si";
 
 const Stack = () => {
