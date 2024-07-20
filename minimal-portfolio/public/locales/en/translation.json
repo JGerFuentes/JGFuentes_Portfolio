@@ -35,10 +35,11 @@
     "stack": {
         "title": "My weapons",
         "everyday-stack": "This is my everyday stack",
-        "methodologies":"//define",
+        "methodologies":"Methodologies: ",
         "subtitle-1": "Other technologies",
-        "tools": "Tools that I usually work with and that I&apos;m familiar to:",
+        "tools": "Tools that I usually work with and that I&apos;m familiar to: ",
         "subtitle-2": "New technologies",
-        "learning": "These are the ones that I&apos;m currently learning:"
+        "learning": "These are the ones that I&apos;m currently learning: ",
+        "c-language": " C language "
     }
 }
