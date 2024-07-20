@@ -67,7 +67,7 @@ const Projects = () => {
         <h4>{ t('projects.brief-2') }</h4>
         <ul>
           <li>
-            <Trans>
+            <Trans i18nKey='projects.features-2'>
               <strong>The website includes:</strong>
               <ul>
                 <li>Landing page with a call to action button.</li>
