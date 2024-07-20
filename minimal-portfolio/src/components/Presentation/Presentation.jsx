@@ -26,7 +26,7 @@ const Presentation = () => {
             <p>
                 <BiBookmarkHeart /> 
                 <Trans i18nKey='presentation.goal'>
-                    <b>My goal:</b> I aim to provide <strong>web & software solutions</strong> with <em>clear</em>, <em>maintainable</em>, <em>scalable</em> and <em>performant code</em>.
+                    <b>My goal:</b> I aim to provide <strong>web & software solutions</strong> with <em>clear</em>, <em>maintainable</em>, <em>scalable</em> and <em>performant</em> code.
                 </Trans>
                 👨🏻‍💻
 
@@ -48,6 +48,7 @@ const Presentation = () => {
 
                 <em>{t('presentation.share')}</em> <BiCheckDouble />
                 
+                <br/>
                 <br/>
 
                 <BiCoffeeTogo /> {t('presentation.motto')} 🚀
