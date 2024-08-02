@@ -28,18 +28,18 @@
     "projects": {
         "title": "My Projects",
         "brief-1": "Single Page Application (SPA) 'Formula 1' themed with a simple design and intuitive navigation for the presentation and creation of F1 drivers.",
-        "features-1": "<strong>The website includes:</strong><1><0>Landing page with a call to action button.</0><1>Home page with paginated results view.</1><2>Search bar to search drivers by name.</2><3>Combined filters and sorting options.</3><4>Drivers' details view.</4><5>Driver creation form.</5><6>RESTful API integration.</6><7>Storage in relational database.</7><8>Full-responsive design.</8><9>Unitary and integrational testing for the Back end.</9></1>",
+        "features-1": "<strong>The website includes:</strong><1><0>Landing page with a call to action button.</0><1>Home page with paginated results view.</1><2>Search bar to search drivers by name or by last name.</2><3>Combined filters and sorting options.</3><4>Drivers' details view.</4><5>Driver creation form.</5><6>RESTful API integration.</6><7>Storage in relational database.</7><8>Full-responsive design.</8><9>Unitary and integrational testing for the Back end.</9></1>",
         "brief-2": "Single Page Application (SPA) for the visualization of and interaction with the characters from the 'Rick and Morty' animated series.",
-        "features-2": "<strong>The website includes:</strong><1><0>Landing page with a call to action button.</0><1>Home page for the presentation of characters.</1><2>Search bar to search characters by name.</2><3>Combined filters and sorting options.</3><4>Characters' details view.</4><5>Rick and Morty RESTful API integration.</5><6>Full-responsive design.</6><7>Unitary and integrational testing for the Back end.</7></1>"
+        "features-2": "<strong>The website includes:</strong><1><0>Landing page with a call to action button.</0><1>Home page for the presentation of characters.</1><2>Search bar to search characters by name.</2><3>Combined filters and sorting options.</3><4>Characters' details view.</4><5>'Rick and Morty' RESTful API integration.</5><6>Full-responsive design.</6><7>Unitary and integrational testing for the Back end.</7></1>"
     },
     "stack": {
         "title": "My weapons",
         "everyday-stack": "This is my everyday stack",
         "methodologies":"Methodologies: ",
         "subtitle-1": "Other technologies",
-        "tools": "Tools that I usually work with and that I&apos;m familiar to: ",
+        "tools": "Tools that I usually work with and that I'm familiar to: ",
         "subtitle-2": "New technologies",
-        "learning": "These are the ones that I&apos;m currently learning: ",
+        "learning": "These are the ones that I'm currently learning: ",
         "c-language": " C language "
     }
 }

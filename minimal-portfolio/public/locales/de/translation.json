@@ -1,0 +1,45 @@
+{
+    "nav-buttons": {
+        "profile": "Wer bin ich?",
+        "experience": "Meine Erfahrung",
+        "projects": "Meine Projekte",
+        "weapons": "Meine Waffen",
+        "language": "Deutsch (DE)"
+    },
+    "presentation": {
+        "title": "Full Stack Webentwickler",
+        "goal":" <0>Mein Ziel:</0> Ich strebe an, <strong>Web- und Softwarelösungen</strong> mit <4>klarem</4>, <6>wartbarem</6>, <8>skalierbarem</8> und <10>leistungsfähigem</10> Code bereitzustellen.",
+        "values": " <0>Meine Werte:</0> Fleißiger, unermüdlicher, selbstmotivierter, enthusiastischer und engagierter Mitarbeiter sowie ein zuverlässiger, empathischer, respektvoller und kooperativer Kollege.",
+        "interest":"Klingt das interessant für Sie?",
+        "share": "Teilen Sie meine Prinzipien?",
+        "motto": "Wie praktisch! Ich suche gerade nach neuen Arbeitserfahrungen, die es mir ermöglichen, von meinen Kollegen zu lernen, die Gelegenheit zu haben, mit meinem Hintergrund und Wissen einen Unterschied zu machen, und sowohl als Entwickler und Teamplayer zu wachsen.",
+        "invitation":"Bitte treten Sie ein und werfen Sie einen genaueren Blick auf meine Arbeit!"
+    },
+    "experience": {
+        "title": "Meine Erfahrung",
+        "job-title": "Junior Back End Entwickler",
+        "company": "KaroKids - Praktikum",
+        "date": "Februar 2024 – März 2024",
+        "location": "Remote",
+        "description": "<strong>Beschreibung:</strong><1><0>Ich war Teil eines 8-köpfigen Teams, das unter <1>Agile/Scrum-Methoden</1> an der Entwicklung einer vollständigen E-Commerce-Plattform für den Laden von Grund auf arbeitete. Ich war hauptsächlich für die Datenbankmodellierung, die E-Mail-Benachrichtigungsfunktionen und den Bildverwaltungsdienst für die Website verantwortlich. Außerdem habe ich an der allgemeinen Logikentwicklung einiger Routen, Handler und Controller sowie an der Integration einer externen RESTful-Zahlungs-API (MercadoPago) mitgewirkt.</0></1>",
+        "achievements": "<strong>Errungenschaften:</strong><1><0>Erhöhung der Sichtbarkeit und des Verkaufsvolumens durch die Gestaltung einer E-Commerce-Website, die ausschließlich der Förderung und Vermarktung der Produkte des Ladens gewidmet ist.</0><1>Ermöglichung einer direkten und flüssigen Kommunikation zwischen Unternehmen und Kunden.</1></1>",
+        "features": "<strong>Die Website umfasst:</strong><1><0>Protokolle zur Benutzerregistrierung und Anmeldung</0><1>Administrator- und Benutzer-Dashboard</1><2>Einkaufswagen</2><3>Favoritenliste</3><4>Zahlungs-Gateway</4><5>Einfache und intuitive Benutzeroberfläche</5></1>"
+    },
+    "projects": {
+        "title": "Meine Projekte",
+        "brief-1": "Single Page Application (SPA) zum Thema 'Formula 1' mit einem einfachen Design und intuitiver Navigation für die Präsentation und Erstellung von F1-Fahrern.",
+        "features-1": "<strong>Die Website umfasst:</strong><1><0>Landingpage mit einem Call-to-Action-Button.</0><1>Startseite mit paginierter Ergebnisansicht.</1><2>Suchleiste zur Suche nach Fahrernamen oder Nachnamen.</2><3>Kombinierte Filter- und Sortieroptionen.</3><4>Fahrerdetailansicht.</4><5>Fahrererstellungsformular.</5><6>RESTful-API-Integration.</6><7>Speicherung in relationaler Datenbank.</7><8>Vollständig responsives Design.</8><9>Einheitliche und integrative Tests für das Backend.</9></1>",
+        "brief-2": "Single Page Application (SPA) zur Visualisierung und Interaktion mit den Charakteren der Zeichentrickserie 'Rick and Morty'.",
+        "features-2": "<strong>Die Website umfasst:</strong><1><0>Landingpage mit einem Call-to-Action-Button.</0><1>Startseite zur Präsentation der Charaktere.</1><2>Suchleiste zur Suche nach Charakterenamen.</2><3>Kombinierte Filter- und Sortieroptionen.</3><4>Charakterdetailansicht.</4><5>Integration der 'Rick and Morty' RESTful-API.</5><6>Vollständig responsives Design.</6><7>Einheitliche und integrative Tests für das Backend.</7></1>"
+    },
+    "stack": {
+        "title": "Meine Waffen",
+        "everyday-stack": "Das ist mein täglicher Stack",
+        "methodologies":"Methodologien:",
+        "subtitle-1": "Andere Technologien",
+        "tools": "Werkzeuge, mit denen ich normalerweise arbeite und mit denen ich vertraut bin:",
+        "subtitle-2": "Neue Technologien",
+        "learning": "Das sind die, die ich derzeit lerne:",
+        "c-language": "C-Sprache"
+    }
+}

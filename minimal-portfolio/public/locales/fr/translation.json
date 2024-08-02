@@ -1,0 +1,45 @@
+{
+    "nav-buttons": {
+        "profile": "Qui suis-je?",
+        "experience": "Mon expérience",
+        "projects": "Mes projets",
+        "weapons": "Mes armes",
+        "language": "Français (FR)"
+    },
+    "presentation": {
+        "title": "Développeur Web Full Stack",
+        "goal":" <0>Mon objectif:</0> Je vise à fournir des <strong>solutions web et logicielles</strong> avec un code <4>clair</4>, <6>maintenable</6>, <8>extensible</8> et <10>performant</10>.",
+        "values": " <0>Mes valeurs:</0> Employé travailleur, infatigable, autodidacte, enthousiaste et engagé, ainsi qu'un collègue de travail fiable, empathique, respectueux et coopératif.",
+        "interest":"Cela vous semble-t-il intéressant?",
+        "share": "Partagez-vous mes principes?",
+        "motto": "Quelle chance! Je cherche justement de nouvelles expériences professionnelles qui me permettent d'apprendre de mes collègues, d'avoir l'opportunité de faire une différence avec mon expérience et mes connaissances, et de grandir à la fois en tant que développeur et en tant que membre d'une équipe.",
+        "invitation":"Veuillez entrer et jeter un coup d'œil à mon travail!"
+    },
+    "experience": {
+        "title": "Mon expérience",
+        "job-title": "Développeur Junior Back End",
+        "company": "KaroKids - Stage",
+        "date": "Février 2024 – Mars 2024",
+        "location": "À distance",
+        "description": "<strong>Description:</strong><1><0>J'ai fait partie d'une équipe de 8 membres travaillant sous des méthodologies <1>Agile/Scrum</1> pour le développement de A à Z d'une plateforme de commerce électronique complète pour le magasin. J'étais principalement responsable de la modélisation de la base de données, des fonctionnalités de notification par e-mail et du service de gestion des images pour le site Web. J'ai également collaboré au développement de la logique générale de certaines routes, gestionnaires et contrôleurs, ainsi qu'à l'intégration d'une API de paiement RESTful tierce (MercadoPago).</0></1>",
+        "achievements": "<strong>Réalisations:</strong><1><0>Augmenter la visibilité et le volume des ventes en concevant un site Web de commerce électronique exclusivement dédié à la promotion et à la commercialisation des produits du magasin.</0><1>Permettre une communication directe et fluide entre l'entreprise et les clients.</1></1>",
+        "features": "<strong>Le site Web comprend:</strong><1><0>Protocoles d'inscription et de connexion des utilisateurs</0><1>Tableau de bord des administrateurs et des utilisateurs</1><2>Panier</2><3>Liste des favoris</3><4>Passerelle de paiement</4><5>Interface simple et intuitive</5></1>"
+    },
+    "projects": {
+        "title": "Mes projets",
+        "brief-1": "Application à page unique (SPA) sur le thème de 'Formula 1' avec un design simple et une navigation intuitive pour la présentation et la création de pilotes de F1.",
+        "features-1": "<strong>Le site Web comprend:</strong><1><0>Page de destination avec un bouton d'appel à l'action.</0><1>Page d'accueil avec vue des résultats paginés.</1><2>Barre de recherche pour rechercher des pilotes par nom.</2><3>Filtres combinés et options de tri.</3><4>Vue des détails des pilotes.</4><5>Formulaire de création de pilotes.</5><6>Intégration de l'API RESTful.</6><7>Stockage dans une base de données relationnelle.</7><8>Design entièrement réactif.</8><9>Tests unitaires et d'intégration pour le Back end.</9></1>",
+        "brief-2": "Application à page unique (SPA) pour la visualisation et l'interaction avec les personnages de la série animée 'Rick and Morty'.",
+        "features-2": "<strong>Le site Web comprend:</strong><1><0>Page de destination avec un bouton d'appel à l'action.</0><1>Page d'accueil pour la présentation des personnages.</1><2>Barre de recherche pour rechercher des personnages par nom et prenom.</2><3>Filtres combinés et options de tri.</3><4>Vue des détails des personnages.</4><5>Intégration de l'API RESTful 'Rick and Morty'.</5><6>Design entièrement réactif.</6><7>Tests unitaires et d'intégration pour le Back end.</7></1>"
+    },
+    "stack": {
+        "title": "Mes armes",
+        "everyday-stack": "C'est mon stack quotidien",
+        "methodologies":"Méthodologies:",
+        "subtitle-1": "Autres technologies",
+        "tools": "Outils avec lesquels je travaille habituellement et auxquels je suis familier:",
+        "subtitle-2": "Nouvelles technologies",
+        "learning": "Ce sont celles que j'apprends actuellement:",
+        "c-language": "Langage C"
+    }
+}
