@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
+import GlobeIcon from '../../utils/GlobeIcon';
 
 const Navbar = ({wrongPath, toggleTheme}) => {
   const { t } = useTranslation();
@@ -73,8 +74,10 @@ const Navbar = ({wrongPath, toggleTheme}) => {
             </button>
           </li>
 
-          <label key='languageSelector'> 🌐
-            <select onChange={handleTranslation} >
+          <label key='languageSelector'> 
+            <GlobeIcon width={20} height={20} />
+            
+            <select onChange={handleTranslation} value={i18n.language}>
             { Object.keys(languages).map((lng) => {
                 return(
                   <option key={lng} value={lng}>
