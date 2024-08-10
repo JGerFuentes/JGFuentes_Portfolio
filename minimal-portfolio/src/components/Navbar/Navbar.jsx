@@ -1,9 +1,22 @@
+import i18n from 'i18next';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
+import GlobeIcon from '../../utils/GlobeIcon';
 
 const Navbar = ({wrongPath, toggleTheme}) => {
   const { t } = useTranslation();
+
+  const languages = {
+    en: { nativeName: 'English (US)'},
+    es: { nativeName: 'Español (AR)'},
+    de: { nativeName: 'Deutsch (DE)'},
+    fr: { nativeName: 'Français (FR)'},
+  }
+
+  const handleTranslation = (event) => {
+    i18n.changeLanguage(event.target.value);
+  }
 
   const scrollOptions = {
     smooth: 'easeInOutQuint',
@@ -61,11 +74,20 @@ const Navbar = ({wrongPath, toggleTheme}) => {
             </button>
           </li>
 
-          <li>
-            <button>
-              🌐 { t('nav-buttons.language') }
-            </button>
-          </li>
+          <label key='languageSelector'> 
+            <GlobeIcon width={20} height={20} />
+            
+            <select onChange={handleTranslation} value={i18n.language}>
+            { Object.keys(languages).map((lng) => {
+                return(
+                  <option key={lng} value={lng}>
+                      {languages[lng].nativeName}
+                  </option>
+                )
+              }) }
+            </select>
+          </label>
+
         </ul>
       )
       }
