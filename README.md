@@ -8,5 +8,5 @@
 ![REACT](https://img.shields.io/badge/-REACT-363838?style=for-the-badge&logo=REACT)
 ![SASS](https://img.shields.io/badge/-SASS-363838?style=for-the-badge&logo=SASS)
 
-### Dependency used for translations:
+### Translations:
 ![i18next](https://img.shields.io/badge/-i18next-363838?style=for-the-badge&logo=i18next)
