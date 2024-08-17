@@ -1,44 +1,44 @@
 {
     "nav-buttons": {
-        "profile": "¿Qui&eacute;n soy?",
+        "profile": "¿Quién soy?",
         "experience": "Mi experiencia",
         "projects": "Mis proyectos",
         "weapons": "Mis armas",
-        "language": "Espa&ntilde;ol (AR)"
+        "language": "Español (AR)"
     },
     "presentation": {
         "title": "Desarrollador Web Full Stack",
-        "goal":" <0>Mi objetivo:</0> Brindar <strong>soluciones web y de software</strong> con c&oacute;digo <4>claro</4>, <6>mantenible</6>, <8>escalable</8> y <10>eficiente</10>.",
-        "values": " <0>Mis valores:</0> Empleado trabajador, incansable, autodidacta, entusiasta y comprometido, as&iacute; como un compa&ntilde;ero de trabajo confiable, emp&aacute;tico, respetuoso y cooperativo.",
+        "goal":" <0>Mi objetivo:</0> Brindar <strong>soluciones web y de software</strong> con código <4>claro</4>, <6>mantenible</6>, <8>escalable</8> y <10>eficiente</10>.",
+        "values": " <0>Mis valores:</0> Empleado trabajador, incansable, autodidacta, entusiasta y comprometido, así como un compañero de trabajo confiable, empático, respetuoso y cooperativo.",
         "interest":"¿Te interesa?",
-        "share": "¿Compart&iacute;s mis mismos principios?",
-        "motto": "¡Buen&iacute;simo! Estoy buscando nuevas experiencias laborales que me permitan aprender de mis compa&ntilde;eros, tener la oportunidad de hacer una diferencia con mi experiencia y conocimientos, y crecer como desarrollador y como team-player.",
-        "invitation":"¡Adelante, entr&aacute; y chusme&aacute; mi laburo!"
+        "share": "¿Compartís mis mismos principios?",
+        "motto": "¡Buenísimo! Estoy buscando nuevas experiencias laborales que me permitan aprender de mis compañeros, tener la oportunidad de hacer una diferencia con mi experiencia y conocimientos, y crecer como desarrollador y como team-player.",
+        "invitation":"¡Adelante, entrá y chusmeá mi laburo!"
     },
     "experience": {
         "title": "Mi Experiencia",
         "job-title": "Desarrollador Junior Back End",
-        "company": "KaroKids - Pr&aacute;cticas",
+        "company": "KaroKids - Prácticas",
         "date": "Feb. 2024 - Mar. 2024",
         "location": "Remoto",
-        "description": "<strong>Descripci&oacute;n:</strong><1><0>Fui parte de un equipo de 8 miembros trabajando bajo metodolog&iacute;as <1>Agile/Scrum</1> en el desarrollo desde cero de una plataforma de comercio electr&oacute;nico completa para la tienda. Me encargu&eacute; principalmente del modelado de la base de datos, las funciones de notificaci&oacute;n por correo electr&oacute;nico y el servicio de gesti&oacute;n de im&aacute;genes para el sitio web. Tambi&eacute;n colabor&eacute; en el desarrollo de la l&oacute;gica general de algunas rutas, controladores y handlers, y la integraci&oacute;n de una API de pago RESTful de terceros (MercadoPago).</0></1>",
-        "achievements": "<strong>Logros:</strong><1><0>Aumentar la visibilidad y el volumen de ventas mediante el dise&ntilde;o de un sitio web de comercio electr&oacute;nico exclusivamente dedicado a la promoci&oacute;n y comercializaci&oacute;n de los productos de la tienda.</0><1>Habilitar una comunicaci&oacute;n directa y fluida entre la empresa y los clientes.</1></1>",
-        "features": "<strong>El sitio web incluye:</strong><1><0>Protocolos de registro e inicio de sesi&oacute;n de usuarios</0><1>Panel de administraci&oacute;n y usuarios</1><2>Carrito de compras</2><3>Lista de favoritos</3><4>Pasarela de pago</4><5>Interfaz simple e intuitiva</5></1>"
+        "description": "<strong>Descripción:</strong><1><0>Fui parte de un equipo de 8 miembros trabajando bajo metodologías <1>Agile/Scrum</1> en el desarrollo desde cero de una plataforma de comercio electrónico completa para la tienda. Me encargué principalmente del modelado de la base de datos, las funciones de notificación por correo electrónico y el servicio de gestión de imágenes para el sitio web. También colaboré en el desarrollo de la lógica general de algunas rutas, controladores y handlers, y la integración de una API de pago RESTful de terceros (MercadoPago).</0></1>",
+        "achievements": "<strong>Logros:</strong><1><0>Aumentar la visibilidad y el volumen de ventas mediante el diseño de un sitio web de comercio electrónico exclusivamente dedicado a la promoción y comercialización de los productos de la tienda.</0><1>Habilitar una comunicación directa y fluida entre la empresa y los clientes.</1></1>",
+        "features": "<strong>El sitio web incluye:</strong><1><0>Protocolos de registro e inicio de sesión de usuarios</0><1>Panel de administración y usuarios</1><2>Carrito de compras</2><3>Lista de favoritos</3><4>Pasarela de pago</4><5>Interfaz simple e intuitiva</5></1>"
     },
     "projects": {
         "title": "Mis Proyectos",
-        "brief-1": "Aplicaci&oacute;n de p&aacute;gina &uacute;nica (SPA) tem&aacute;tica de 'Formula 1' con un dise&ntilde;o simple y navegaci&oacute;n intuitiva para la presentaci&oacute;n y creaci&oacute;n de pilotos de F1.",
-        "features-1": "<strong>El sitio web incluye:</strong><1><0>P&aacute;gina de landing con un bot&oacute;n de llamada a la acci&oacute;n.</0><1>P&aacute;gina de inicio con vista de resultados paginados.</1><2>Barra de b&uacute;squeda para buscar pilotos por nombre o apellido.</2><3>Filtros combinados y opciones de ordenamiento.</3><4>Vista de detalles de los pilotos.</4><5>Formulario de creaci&oacute;n de pilotos.</5><6>Integraci&oacute;n de API RESTful.</6><7>Almacenamiento en base de datos relacional.</7><8>Dise&ntilde;o totalmente responsivo.</8><9>Pruebas unitarias e integrales para el Back end.</9></1>",
-        "brief-2": "Aplicaci&oacute;n de p&aacute;gina &uacute;nica (SPA) para la visualizaci&oacute;n e interacci&oacute;n con los personajes de la serie animada 'Rick and Morty'.",
-        "features-2": "<strong>El sitio web incluye:</strong><1><0>P&aacute;gina de landing con un bot&oacute;n de llamada a la acci&oacute;n.</0><1>P&aacute;gina de inicio para la presentaci&oacute;n de personajes.</1><2>Barra de b&uacute;squeda para buscar personajes por nombre.</2><3>Filtros combinados y opciones de ordenamiento.</3><4>Vista de detalles de los personajes.</4><5>Integraci&oacute;n de API RESTful de 'Rick and Morty'.</5><6>Dise&ntilde;o totalmente responsivo.</6><7>Pruebas unitarias e integrales para el Back end.</7></1>"
+        "brief-1": "Aplicación de página única (SPA) temática de 'Formula 1' con un diseño simple y navegación intuitiva para la presentación y creación de pilotos de F1.",
+        "features-1": "<strong>El sitio web incluye:</strong><1><0>Página de landing con un botón de llamada a la acción.</0><1>Página de inicio con vista de resultados paginados.</1><2>Barra de búsqueda para buscar pilotos por nombre o apellido.</2><3>Filtros combinados y opciones de ordenamiento.</3><4>Vista de detalles de los pilotos.</4><5>Formulario de creación de pilotos.</5><6>Integración de API RESTful.</6><7>Almacenamiento en base de datos relacional.</7><8>Diseño totalmente responsivo.</8><9>Pruebas unitarias e integrales para el Back end.</9></1>",
+        "brief-2": "Aplicación de página única (SPA) para la visualización e interacción con los personajes de la serie animada 'Rick and Morty'.",
+        "features-2": "<strong>El sitio web incluye:</strong><1><0>Página de landing con un botón de llamada a la acción.</0><1>Página de inicio para la presentación de personajes.</1><2>Barra de búsqueda para buscar personajes por nombre.</2><3>Filtros combinados y opciones de ordenamiento.</3><4>Vista de detalles de los personajes.</4><5>Integración de API RESTful de 'Rick and Morty'.</5><6>Diseño totalmente responsivo.</6><7>Pruebas unitarias e integrales para el Back end.</7></1>"
     },
     "stack": {
         "title": "Mis armas",
         "everyday-stack": "Este es mi stack diario",
-        "methodologies":"Metodolog&iacute;as:",
-        "subtitle-1": "Otras tecnolog&iacute;as",
+        "methodologies":"Metodologías:",
+        "subtitle-1": "Otras tecnologías",
         "tools": "Herramientas con las que suelo trabajar y con las que estoy familiarizado:",
-        "subtitle-2": "Nuevas tecnolog&iacute;as",
+        "subtitle-2": "Nuevas tecnologías",
         "learning": "Estas son las que estoy aprendiendo actualmente:",
         "c-language": "Lenguaje C"
     }
