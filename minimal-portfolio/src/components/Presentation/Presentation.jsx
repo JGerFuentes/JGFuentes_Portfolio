@@ -1,14 +1,9 @@
 import { useTranslation, Trans } from 'react-i18next';
-import { useState } from 'react';
 import { BiBookmarkHeart, BiBuildingHouse, BiCheck, BiCheckDouble, BiCoffeeTogo, BiDevices, BiLogoLinkedinSquare, BiLogoGithub, BiPaste, BiLinkExternal, BiDownload, BiIdCard } from 'react-icons/bi';
+import CustomizedButton from '../../utils/CustomizedButton';
 
 const Presentation = () => {
     const { t } = useTranslation();
-
-    const [hover, setHover] = useState(false);
-    const [hoverA, setHoverA] = useState(false);
-    const [hoverB, setHoverB] = useState(false);
-
 
     return (
     <article>
@@ -62,19 +57,13 @@ const Presentation = () => {
         <section>
             <ul>
                 <li>
-                    <button onMouseEnter={() => setHoverA(true)} onMouseLeave={() => setHoverA(false)}>
-                        {hoverA ? <BiLinkExternal /> : <BiLogoLinkedinSquare />}
-                    </button>
+                    <CustomizedButton originalIcon={<BiLogoLinkedinSquare />} hoverIcon={<BiLinkExternal />} url='https://www.linkedin.com/in/jgerfuentes/' />
                 </li>
                 <li>
-                    <button onMouseEnter={() => setHoverB(true)} onMouseLeave={() => setHoverB(false)}>
-                        {hoverB ? <BiLinkExternal /> : <BiLogoGithub />}
-                    </button>
+                    <CustomizedButton originalIcon={<BiLogoGithub />} hoverIcon={<BiLinkExternal />} url='https://github.com/JGerFuentes' />
                 </li>
                 <li>
-                    <button onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                        {hover ? <BiDownload /> : <BiIdCard />}
-                    </button>
+                    <CustomizedButton originalIcon={<BiIdCard />} hoverIcon={<BiDownload />} url='https://1drv.ms/f/s!ArQ0qaHF3uXpgXUGfXQp7--VHmwh'/>
                 </li>
                 <li>
                     <span>jger_fuentes@outlook.com <BiPaste /></span>
